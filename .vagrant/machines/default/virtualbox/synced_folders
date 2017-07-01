@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/cvapps":{"create":true,"group":"vagrant","owner":"vagrant","guestpath":"/home/vagrant/cvapps","hostpath":"C:/Users/f0lkl/cvbox/cvapps","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/f0lkl/cvbox","disabled":false,"__vagrantfile":true}}}
