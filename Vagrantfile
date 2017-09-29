@@ -32,6 +32,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #config.vm.provision :shell, inline: "mount -t vboxsf -o uid=`id -u vagrant`,gid=`getent group vagrant | cut -d: -f3` cvapps /home/vagrant/cvapps", run: "always"
  
   config.vm.provision "shell", path: "provision/setup.sh"
+  config.vm.provision "shell", path: "provision/nodejs.sh"
   config.vm.provision "shell", path: "provision/postgresql.sh"
+  config.vm.provision "shell", path: "provision/vim-setting.sh"
  
 end
